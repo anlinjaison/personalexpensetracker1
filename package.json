@@ -1,0 +1,23 @@
+{
+  "name": "personal-expense-tracker-mern",
+  "version": "1.0.0",
+  "description": "Personal Expense Tracker Web Application built using MERN Stack (MongoDB, Express.js, React.js, Node.js)",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "expense-tracker",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs"
+  ],
+  "author": "Student Candidate",
+  "license": "ISC"
+}
