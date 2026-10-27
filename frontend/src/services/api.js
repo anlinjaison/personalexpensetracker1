@@ -1,5 +1,6 @@
 // API Service for Expense Tracker
-const API_BASE = import.meta.env.VITE_API_URL || '/api';
+const rawApiUrl = import.meta.env.VITE_API_URL || '/api';
+const API_BASE = rawApiUrl.replace(/\/+$/, '');
 
 /**
  * Fetch all expenses with optional search, category, and sort filters
