@@ -205,5 +205,8 @@ Open `http://localhost:5173` in your browser.
 - [x] **View Expenses** in table with formatted currency and color-coded badges.
 - [x] **Edit Expense** pre-fills existing data and updates on screen and database.
 - [x] **Delete Expense** prompts with confirmation dialog and removes from screen and database.
+      
+      ## Live Demo
+      [Open Personal Expense Tracker](YOUR_VERCEL_URL)
 - [x] **Total Amount Spent** updates automatically at the top after every operation without manual reload.
 - [x] Clean, modern, responsive UI on mobile and desktop screens.
